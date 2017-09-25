@@ -21,7 +21,7 @@ function destructivelyAddElementToBeginningOfArray(arr, item) {
 //add to back
 //DOES NOT ALTER Original array
 function addElementToEndOfArray(arr, item) {
-  return [arr,...item]
+  return [arr...,item]
 }
 
 //add to back
