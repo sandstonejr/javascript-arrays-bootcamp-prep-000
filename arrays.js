@@ -30,3 +30,8 @@ function destructivelyAddElementToEndOfArray(arr, item) {
   arr.push(item)
   return arr
 }
+
+//access element in array by index
+function accessElementInArray(arr, ind) {
+  return arr[ind]
+}
